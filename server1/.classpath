@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/test"/>
+	<classpathentry kind="lib" path="D:/myeclipse/hibernate/mysql-connector-java-5.1.7-bin.jar"/>
+	<classpathentry kind="lib" path="D:/myeclipse/mina-core-2.0.12.jar"/>
+	<classpathentry kind="lib" path="D:/myeclipse/slf4j-api-1.7.14.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="635.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <TabPane layoutX="37.0" layoutY="27.0" prefHeight="635.0" prefWidth="532.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="服务器">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="508.0" prefWidth="532.0">
+                     <children>
+                        <Label layoutX="29.0" layoutY="33.0" text="服务器状态：" />
+                        <ListView fx:id="displayInfo" layoutX="61.0" layoutY="60.0" prefHeight="261.0" prefWidth="370.0" />
+                        <Button fx:id="openSer" layoutX="123.0" layoutY="475.0" mnemonicParsing="false" onAction="#openServer" text="开启服务器" />
+                        <TextField fx:id="ip" layoutX="218.0" layoutY="341.0" />
+                        <TextField fx:id="port" layoutX="218.0" layoutY="381.0" prefHeight="29.0" prefWidth="173.0" />
+                        <Label layoutX="105.0" layoutY="346.0" text="服务器IP：" />
+                        <Label layoutX="97.0" layoutY="386.0" text="监听端口号：" />
+                        <Button fx:id="closeSer" layoutX="263.0" layoutY="475.0" mnemonicParsing="false" onAction="#closeServer" text="关闭服务器" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
